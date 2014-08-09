@@ -1,0 +1,399 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACCEPT_POLLING_INTERVAL	common/constants.h	37;"	d
+Arg	server.c	/^typedef struct Arg {$/;"	s	file:
+Arg	server.c	/^}Arg;$/;"	t	typeref:struct:Arg	file:
+Arg_Recv	client.c	/^typedef struct Arg_Recv {$/;"	s	file:
+Arg_Recv	client.c	/^}Arg_Recv;$/;"	t	typeref:struct:Arg_Recv	file:
+BROADCAST_NODEID	common/constants.h	74;"	d
+CLIENTPORT	server.c	33;"	d	file:
+CLIENTPORT1	client.c	89;"	d	file:
+CLIENTPORT1	client/app_simple_client.c	29;"	d	file:
+CLIENTPORT1	client/app_stress_client.c	29;"	d	file:
+CLIENTPORT1	server/app_simple_server.c	27;"	d	file:
+CLIENTPORT1	server/app_stress_server.c	29;"	d	file:
+CLIENTPORT2	client/app_simple_client.c	31;"	d	file:
+CLIENTPORT2	server/app_simple_server.c	29;"	d	file:
+CLOSED	client/stcp_client.h	15;"	d
+CLOSED	server/stcp_server.h	16;"	d
+CLOSEWAIT	server/stcp_server.h	19;"	d
+CLOSEWAIT_TIMEOUT	common/constants.h	31;"	d
+CONNECTED	client/stcp_client.h	17;"	d
+CONNECTED	server/stcp_server.h	18;"	d
+CONNECTION_PORT	common/constants.h	50;"	d
+CONSTANTS_H	common/constants.h	8;"	d
+DATA	common/seg.h	19;"	d
+DATAACK	common/seg.h	20;"	d
+DATA_TIMEOUT	common/constants.h	41;"	d
+DVTABLE_H	sip/dvtable.h	8;"	d
+FIN	common/seg.h	17;"	d
+FINACK	common/seg.h	18;"	d
+FINWAIT	client/stcp_client.h	18;"	d
+FIN_MAX_RETRY	common/constants.h	29;"	d
+FIN_TIMEOUT	common/constants.h	25;"	d
+FRIEND_NUM	client.c	19;"	d	file:
+Find_TCB	server/stcp_server.c	/^int Find_TCB(int src_port, int dest_port)$/;"	f
+GBN_WINDOW	common/constants.h	43;"	d
+IM	client.c	/^	char IM[4];$/;"	m	struct:data_packet	file:
+IM	server.c	/^	char IM[4];\/\/标志为本网络的数据报$/;"	m	struct:data_packet	file:
+INFINITE_COST	common/constants.h	68;"	d
+LISTENING	server/stcp_server.h	17;"	d
+ListHead	include/list.h	/^struct ListHead {$/;"	s
+ListHead	include/list.h	/^typedef struct ListHead ListHead;$/;"	t	typeref:struct:ListHead
+MAXHOSTNAME	topology/topology.c	8;"	d	file:
+MAXHOSTNUM	topology/topology.c	9;"	d	file:
+MAXLINE	client.c	18;"	d	file:
+MAXLINE	server.c	28;"	d	file:
+MAX_NODE_NUM	common/constants.h	62;"	d
+MAX_PKT_LEN	common/constants.h	56;"	d
+MAX_ROUTINGTABLE_SLOTS	common/constants.h	65;"	d
+MAX_SEG_LEN	common/constants.h	19;"	d
+MAX_TRANSPORT_CONNECTIONS	common/constants.h	15;"	d
+MESSAGE_NUM	client.c	21;"	d	file:
+Mes_recv	client.c	/^Message Mes_recv;$/;"	v
+Mes_send	client.c	/^Message Mes_send;$/;"	v
+Message	client.c	/^typedef struct Message {$/;"	s	file:
+Message	client.c	/^}Message;$/;"	t	typeref:struct:Message	file:
+NBRCOSTTABLE_H	sip/nbrcosttable.h	8;"	d
+NEIGHBORTABLE_H	son/neighbortable.h	8;"	d
+NETWORK_H	sip/sip.h	8;"	d
+NUM_THREADS	server.c	30;"	d	file:
+NUM_USER	server.c	31;"	d	file:
+Nbr_Num	sip/nbrcosttable.h	/^int Nbr_Num;\/\/邻居数目$/;"	v
+ONLINE_NUM	client.c	20;"	d	file:
+Online	client.c	/^ListHead Online;$/;"	v
+OnlineUser	client.c	/^typedef struct OnlineUser {$/;"	s	file:
+OnlineUser	client.c	/^}OnlineUser;$/;"	t	typeref:struct:OnlineUser	file:
+PKTSTART1	common/pkt.c	11;"	d	file:
+PKTSTART2	common/pkt.c	12;"	d	file:
+PKT_H	common/pkt.h	2;"	d
+PKT_LOSS_RATE	common/constants.h	21;"	d
+PWD	server.c	/^char *PWD[NUM_USER] = {"27543602", "q8000", "dfy", "sfq", "0529"};$/;"	v
+RECEIVE_BUF_SIZE	common/constants.h	39;"	d
+RECVBUF_POLLING_INTERVAL	common/constants.h	35;"	d
+ROUTEUPDATE_INTERVAL	common/constants.h	77;"	d
+ROUTE_UPDATE	common/pkt.h	7;"	d
+ROUTINGTABLE_H	sip/routingtable.h	9;"	d
+Recv_mes	client.c	/^ListHead Recv_mes;$/;"	v
+ResWritePacket	server.c	/^void *ResWritePacket(Arg *arg) {$/;"	f
+SEGSTART1	common/seg.c	11;"	d	file:
+SEGSTART2	common/seg.c	12;"	d	file:
+SEG_H	common/seg.h	10;"	d
+SENDBUF_POLLING_INTERVAL	common/constants.h	33;"	d
+SERVERIP	client.c	97;"	d	file:
+SERVERIP	client/app_simple_client.c	39;"	d	file:
+SERVERIP	client/app_stress_client.c	31;"	d	file:
+SERVERIP	server.c	38;"	d	file:
+SERVERIP	server/app_simple_server.c	33;"	d	file:
+SERVERIP	server/app_stress_server.c	33;"	d	file:
+SERVERPORT	client.c	90;"	d	file:
+SERVERPORT	server.c	34;"	d	file:
+SERVERPORT1	client/app_simple_client.c	30;"	d	file:
+SERVERPORT1	client/app_stress_client.c	30;"	d	file:
+SERVERPORT1	server/app_simple_server.c	28;"	d	file:
+SERVERPORT1	server/app_stress_server.c	30;"	d	file:
+SERVERPORT2	client/app_simple_client.c	32;"	d	file:
+SERVERPORT2	server/app_simple_server.c	30;"	d	file:
+SIP	common/pkt.h	8;"	d
+SIP_PORT	common/constants.h	71;"	d
+SIP_WAITTIME	sip/sip.c	32;"	d	file:
+SON_H	son/son.h	8;"	d
+SON_PORT	common/constants.h	53;"	d
+SON_START_DELAY	son/son.c	14;"	d	file:
+STARTDELAY	client.c	95;"	d	file:
+STARTDELAY	client/app_simple_client.c	35;"	d	file:
+STARTDELAY	client/app_stress_client.c	35;"	d	file:
+STCPCLIENT_H	client/stcp_client.h	10;"	d
+STCPSERVER_H	server/stcp_server.h	9;"	d
+SYN	common/seg.h	15;"	d
+SYNACK	common/seg.h	16;"	d
+SYNSENT	client/stcp_client.h	16;"	d
+SYN_MAX_RETRY	common/constants.h	27;"	d
+SYN_TIMEOUT	common/constants.h	23;"	d
+Send_mes	client.c	/^ListHead Send_mes;$/;"	v
+TOPOLOGY_H	topology/topology.h	8;"	d
+USER	server.c	/^char *USER[NUM_USER] = {"py", "qxq", "nxf", "slf", "zx"};$/;"	v
+USERNAME	client.c	/^static char USERNAME[10];\/\/存储当前登录的用户名$/;"	v	file:
+User	server.c	/^typedef struct User {$/;"	s	file:
+User	server.c	/^}User;$/;"	t	typeref:struct:User	file:
+User_exist	server.c	/^bool User_exist(char *user, char *pwd) {$/;"	f
+WAITTIME	client/app_simple_client.c	37;"	d	file:
+WAITTIME	client/app_stress_client.c	37;"	d	file:
+WAITTIME	server.c	37;"	d	file:
+WAITTIME	server/app_simple_server.c	32;"	d	file:
+WAITTIME	server/app_stress_server.c	32;"	d	file:
+_BSD_SOURCE	client/stcp_client.c	6;"	d	file:
+_BSD_SOURCE	server/stcp_server.c	6;"	d	file:
+_BSD_SOURCE	son/neighbortable.c	6;"	d	file:
+__LIST_H__	include/list.h	2;"	d
+ack_num	common/seg.h	/^	unsigned int ack_num;         \/\/确认号$/;"	m	struct:stcp_hdr
+bufMutex	client/stcp_client.h	/^	pthread_mutex_t* bufMutex;      \/\/���ͻ�����������$/;"	m	struct:client_tcb
+bufMutex_recv	client/stcp_client.h	/^	pthread_mutex_t *bufMutex_recv;$/;"	m	struct:client_tcb
+bufMutex_recv	server/stcp_server.h	/^	pthread_mutex_t* bufMutex_recv;      $/;"	m	struct:server_tcb
+bufMutex_send	server/stcp_server.h	/^	pthread_mutex_t* bufMutex_send;	\/\/互斥量用于控制服务器发送缓冲区的访问$/;"	m	struct:server_tcb
+checkchecksum	common/seg.c	/^int checkchecksum(seg_t* segment)$/;"	f
+checksum	common/seg.c	/^unsigned short checksum(seg_t* segment)$/;"	f
+checksum	common/seg.h	/^	unsigned short int checksum;  \/\/这个段的校验和$/;"	m	struct:stcp_hdr
+client_nodeID	client/stcp_client.h	/^	unsigned int client_nodeID;     \/\/�ͻ��˽ڵ�ID, ����IP��ַ$/;"	m	struct:client_tcb
+client_nodeID	server/stcp_server.h	/^	unsigned int client_nodeID; $/;"	m	struct:server_tcb
+client_portNum	client/stcp_client.h	/^	unsigned int client_portNum;    \/\/�ͻ��˶˿ں�$/;"	m	struct:client_tcb
+client_portNum	server/stcp_server.h	/^	unsigned int client_portNum;$/;"	m	struct:server_tcb
+client_tcb	client/stcp_client.h	/^typedef struct client_tcb {$/;"	s
+client_tcb_t	client/stcp_client.h	/^} client_tcb_t;$/;"	t	typeref:struct:client_tcb
+conn	son/neighbortable.h	/^  int conn;	            \/\/针对这个邻居的TCP连接套接字描述符$/;"	m	struct:neighborentry
+connectNbrs	son/son.c	/^int connectNbrs() {$/;"	f
+connectToSIP	client.c	/^int connectToSIP() {$/;"	f
+connectToSIP	client/app_simple_client.c	/^int connectToSIP() {$/;"	f
+connectToSIP	client/app_stress_client.c	/^int connectToSIP() {$/;"	f
+connectToSIP	server.c	/^int connectToSIP() {$/;"	f
+connectToSIP	server/app_simple_server.c	/^int connectToSIP() {$/;"	f
+connectToSIP	server/app_stress_server.c	/^int connectToSIP() {$/;"	f
+connectToSON	sip/sip.c	/^int connectToSON() { $/;"	f
+connfd	server.c	/^	int connfd;$/;"	m	struct:Arg	file:
+connfd	server.c	/^	int connfd;\/\/与该用户连接的套接字	$/;"	m	struct:User	file:
+cost	common/pkt.h	/^        unsigned int cost;	    \/\/��Դ�ڵ�(�����ײ��е�src_nodeID)��Ŀ��ڵ����·����$/;"	m	struct:routeupdate_entry
+cost	sip/dvtable.h	/^	unsigned int cost;	\/\/到目标节点的代价$/;"	m	struct:distancevectorentry
+cost	sip/nbrcosttable.h	/^	unsigned int cost;	    \/\/到该邻居的直接链路代价$/;"	m	struct:neighborcostentry
+create_newwin	client.c	/^WINDOW *create_newwin(int height, int width, int starty, int startx) { $/;"	f
+data	client.c	/^	char data[120];$/;"	m	struct:Message	file:
+data	common/pkt.h	/^  char data[MAX_PKT_LEN];$/;"	m	struct:packet
+data	common/seg.h	/^	char data[MAX_SEG_LEN];$/;"	m	struct:segment
+data	server.c	/^	data_packet data;\/\/发出去的数据协议$/;"	m	struct:Arg	file:
+data_packet	client.c	/^typedef struct data_packet {$/;"	s	file:
+data_packet	client.c	/^}data_packet;\/\/所用协议$/;"	t	typeref:struct:data_packet	file:
+data_packet	server.c	/^typedef struct data_packet {$/;"	s	file:
+data_packet	server.c	/^}data_packet;$/;"	t	typeref:struct:data_packet	file:
+destNodeID	sip/routingtable.h	/^	int destNodeID;		\/\/目标节点ID$/;"	m	struct:routingtable_entry
+dest_nodeID	common/pkt.h	/^  int dest_nodeID;		          \/\/Ŀ��ڵ�ID$/;"	m	struct:sipheader
+dest_port	common/seg.h	/^	unsigned int dest_port;       \/\/目的端口号$/;"	m	struct:stcp_hdr
+disconnectToSIP	client.c	/^void disconnectToSIP(int sip_conn) {$/;"	f
+disconnectToSIP	client/app_simple_client.c	/^void disconnectToSIP(int sip_conn) {$/;"	f
+disconnectToSIP	client/app_stress_client.c	/^void disconnectToSIP(int sip_conn) {$/;"	f
+disconnectToSIP	server.c	/^void disconnectToSIP(int sip_conn) {$/;"	f
+disconnectToSIP	server/app_simple_server.c	/^void disconnectToSIP(int sip_conn) {$/;"	f
+disconnectToSIP	server/app_stress_server.c	/^void disconnectToSIP(int sip_conn) {$/;"	f
+distancevector	sip/dvtable.h	/^typedef struct distancevector {$/;"	s
+distancevectorentry	sip/dvtable.h	/^typedef struct distancevectorentry {$/;"	s
+dv	sip/sip.c	/^dv_t* dv;				\/\/距离矢量表$/;"	v
+dvEntry	sip/dvtable.h	/^	dv_entry_t* dvEntry;	\/\/一个包含N个dv_entry_t的数组, 其中每个成员包含目标节点ID和从该源节点到该目标节点的代价. N是重叠网络中总的节点数.$/;"	m	struct:distancevector
+dv_entry_t	sip/dvtable.h	/^} dv_entry_t;$/;"	t	typeref:struct:distancevectorentry
+dv_mutex	sip/sip.c	/^pthread_mutex_t* dv_mutex;		\/\/距离矢量表互斥量$/;"	v
+dv_t	sip/dvtable.h	/^} dv_t;$/;"	t	typeref:struct:distancevector
+dvtable_create	sip/dvtable.c	/^dv_t* dvtable_create()$/;"	f
+dvtable_destroy	sip/dvtable.c	/^void dvtable_destroy(dv_t* dvtable)$/;"	f
+dvtable_getcost	sip/dvtable.c	/^unsigned int dvtable_getcost(dv_t* dvtable, int fromNodeID, int toNodeID)$/;"	f
+dvtable_print	sip/dvtable.c	/^void dvtable_print(dv_t* dvtable)$/;"	f
+dvtable_setcost	sip/dvtable.c	/^int dvtable_setcost(dv_t* dvtable,int fromNodeID,int toNodeID, unsigned int cost)$/;"	f
+entry	common/pkt.h	/^        routeupdate_entry_t entry[MAX_NODE_NUM];$/;"	m	struct:pktrt
+entryNum	common/pkt.h	/^        unsigned int entryNum;	\/\/���·�ɸ��±����а�������Ŀ��$/;"	m	struct:pktrt
+expect_seqNum	client/stcp_client.h	/^	unsigned int expect_seqNum;$/;"	m	struct:client_tcb
+expect_seqNum	server/stcp_server.h	/^	unsigned int expect_seqNum;     $/;"	m	struct:server_tcb
+forwardpktToSIP	common/pkt.c	/^int forwardpktToSIP(sip_pkt_t* pkt, int sip_conn)$/;"	f
+forwardsegToSTCP	common/seg.c	/^int forwardsegToSTCP(int stcp_conn, int src_nodeID, seg_t* segPtr)$/;"	f
+gethostipbyname	topology/topology.c	/^void gethostipbyname(char* name,char* ip){$/;"	f
+getpktToSend	common/pkt.c	/^int getpktToSend(sip_pkt_t* pkt, int* nextNode,int sip_conn)$/;"	f
+getsegToSend	common/seg.c	/^int getsegToSend(int stcp_conn, int* dest_nodeID, seg_t* segPtr)$/;"	f
+hash	sip/routingtable.h	/^	routingtable_entry_t* hash[MAX_ROUTINGTABLE_SLOTS];$/;"	m	struct:routingtable
+header	common/pkt.h	/^  sip_hdr_t header;$/;"	m	struct:packet
+header	common/seg.h	/^	stcp_hdr_t header;$/;"	m	struct:segment
+hour	client.c	/^	int hour, min, sec;$/;"	m	struct:Message	file:
+length	common/pkt.h	/^  unsigned short int length;	  \/\/���������ݵĳ���$/;"	m	struct:sipheader
+length	common/seg.h	/^	unsigned short int length;    \/\/段数据长度$/;"	m	struct:stcp_hdr
+list	client.c	/^	ListHead list;$/;"	m	struct:OnlineUser	file:
+list	server.c	/^	ListHead list;$/;"	m	struct:User	file:
+list_add	include/list.h	/^list_add(ListHead *prev, ListHead *next, ListHead *data) {$/;"	f
+list_add_after	include/list.h	/^list_add_after(ListHead *list, ListHead *data) {$/;"	f
+list_add_before	include/list.h	/^list_add_before(ListHead *list, ListHead *data) {$/;"	f
+list_del	include/list.h	/^list_del(ListHead *data) {$/;"	f
+list_each	include/list.h	56;"	d
+list_empty	include/list.h	/^list_empty(ListHead *list) {$/;"	f
+list_entry	include/list.h	58;"	d
+list_foreach	include/list.h	54;"	d
+list_init	include/list.h	/^list_init(ListHead *list) {$/;"	f
+listen_to_neighbor	son/son.c	/^void* listen_to_neighbor(void* arg) {$/;"	f
+login_status	client.c	/^static bool login_status = false, send_status = false, refuse = false,$/;"	v	file:
+main	client.c	/^int main() {$/;"	f
+main	client/app_simple_client.c	/^int main() {$/;"	f
+main	client/app_stress_client.c	/^int main() {$/;"	f
+main	server.c	/^int main() {$/;"	f
+main	server/app_simple_server.c	/^int main() {$/;"	f
+main	server/app_stress_server.c	/^int main() {$/;"	f
+main	sip/sip.c	/^int main(int argc, char *argv[]) {$/;"	f
+main	son/son.c	/^int main() {$/;"	f
+makehash	sip/routingtable.c	/^int makehash(int node)$/;"	f
+message	client.c	/^	char message[120];\/\/信息$/;"	m	struct:data_packet	file:
+message	server.c	/^	char message[120];$/;"	m	struct:data_packet	file:
+min	client.c	/^	int hour, min, sec;$/;"	m	struct:Message	file:
+my_win	client.c	/^WINDOW *my_win;$/;"	v
+my_win2	client.c	/^WINDOW *my_win2;$/;"	v
+n	server.c	/^	int n;$/;"	m	struct:Arg	file:
+nbr_cost_entry_t	sip/nbrcosttable.h	/^} nbr_cost_entry_t;$/;"	t	typeref:struct:neighborcostentry
+nbr_entry_t	son/neighbortable.h	/^} nbr_entry_t;$/;"	t	typeref:struct:neighborentry
+nbrcosttable_create	sip/nbrcosttable.c	/^nbr_cost_entry_t* nbrcosttable_create()$/;"	f
+nbrcosttable_destroy	sip/nbrcosttable.c	/^void nbrcosttable_destroy(nbr_cost_entry_t* nct)$/;"	f
+nbrcosttable_getcost	sip/nbrcosttable.c	/^unsigned int nbrcosttable_getcost(nbr_cost_entry_t* nct, int nodeID)$/;"	f
+nbrcosttable_print	sip/nbrcosttable.c	/^void nbrcosttable_print(nbr_cost_entry_t* nct)$/;"	f
+nct	sip/sip.c	/^nbr_cost_entry_t* nct;			\/\/邻居代价表$/;"	v
+neighborcostentry	sip/nbrcosttable.h	/^typedef struct neighborcostentry {$/;"	s
+neighborentry	son/neighbortable.h	/^typedef struct neighborentry {$/;"	s
+next	client/stcp_client.h	/^        struct segBuf* next;$/;"	m	struct:segBuf	typeref:struct:segBuf::segBuf
+next	include/list.h	/^	struct ListHead *prev, *next;$/;"	m	struct:ListHead	typeref:struct:ListHead::
+next	server/stcp_server.h	/^        struct segBuf* next;$/;"	m	struct:segBuf	typeref:struct:segBuf::segBuf
+next	sip/routingtable.h	/^	struct routingtable_entry* next;	\/\/指向在同一个路由表槽中的下一个routingtable_entry_t$/;"	m	struct:routingtable_entry	typeref:struct:routingtable_entry::routingtable_entry
+nextNodeID	common/pkt.h	/^  int nextNodeID;        \/\/��һ���Ľڵ�ID$/;"	m	struct:sendpktargument
+nextNodeID	sip/routingtable.h	/^	int nextNodeID;		\/\/报文应该转发给的下一跳节点ID$/;"	m	struct:routingtable_entry
+next_seqNum	client/stcp_client.h	/^	unsigned int next_seqNum;       \/\/�¶�׼��ʹ�õ���һ����� $/;"	m	struct:client_tcb
+next_seqNum	server/stcp_server.h	/^	unsigned int next_seqNum;       \/\/下一个序号$/;"	m	struct:server_tcb
+nodeID	common/pkt.h	/^        unsigned int nodeID;	\/\/Ŀ��ڵ�ID$/;"	m	struct:routeupdate_entry
+nodeID	common/seg.h	/^	int nodeID;		\/\/节点ID $/;"	m	struct:sendsegargument
+nodeID	sip/dvtable.h	/^	int nodeID;		        \/\/源节点ID$/;"	m	struct:distancevector
+nodeID	sip/dvtable.h	/^	int nodeID;		    \/\/目标节点ID	$/;"	m	struct:distancevectorentry
+nodeID	sip/nbrcosttable.h	/^	unsigned int nodeID;	\/\/邻居的节点ID$/;"	m	struct:neighborcostentry
+nodeID	son/neighbortable.h	/^  int nodeID;	        \/\/邻居的节点ID$/;"	m	struct:neighborentry
+nodeIP	son/neighbortable.h	/^  in_addr_t nodeIP;     \/\/邻居的IP地址,32位无符号整型，网络字节序$/;"	m	struct:neighborentry
+nt	son/son.c	/^nbr_entry_t* nt; $/;"	v
+nt_addconn	son/neighbortable.c	/^int nt_addconn(nbr_entry_t* nt, int nodeID, int conn)$/;"	f
+nt_create	son/neighbortable.c	/^nbr_entry_t* nt_create()$/;"	f
+nt_destroy	son/neighbortable.c	/^void nt_destroy(nbr_entry_t* nt)$/;"	f
+nt_getIP	son/neighbortable.c	/^in_addr_t nt_getIP(nbr_entry_t* nt,int size,int nodeID){$/;"	f
+online	server.c	/^	char online[80];$/;"	m	struct:data_packet	file:
+packet	common/pkt.h	/^typedef struct packet {$/;"	s
+password	client.c	/^	char password[8];\/\/密码$/;"	m	struct:data_packet	file:
+pkt	common/pkt.h	/^  sip_pkt_t pkt;         \/\/Ҫ���͵ı���$/;"	m	struct:sendpktargument
+pkt_routeupdate_t	common/pkt.h	/^} pkt_routeupdate_t;$/;"	t	typeref:struct:pktrt
+pkthandler	sip/sip.c	/^void* pkthandler(void* arg) {$/;"	f
+pktrt	common/pkt.h	/^typedef struct pktrt{$/;"	s
+prev	include/list.h	/^	struct ListHead *prev, *next;$/;"	m	struct:ListHead	typeref:struct:ListHead::ListHead
+rcv_win	common/seg.h	/^	unsigned short int  rcv_win;  \/\/当前未使用$/;"	m	struct:stcp_hdr
+readn	common/seg.c	/^int readn(int fd, char *bp, size_t len)$/;"	f
+readn_1	common/pkt.c	/^int readn_1( int fd, char *bp, size_t len)$/;"	f
+receiver	client.c	/^	char receiver[10];$/;"	m	struct:Message	file:
+receiver	client.c	/^	char receiver[8];\/\/接收者$/;"	m	struct:data_packet	file:
+recvBuf	client/stcp_client.h	/^	char *recvBuf;$/;"	m	struct:client_tcb
+recvBuf	server/stcp_server.h	/^	char* recvBuf;              $/;"	m	struct:server_tcb
+recvbuf	server.c	/^	char recvbuf[MAXLINE];\/\/接收到的数据$/;"	m	struct:Arg	file:
+recvline	client.c	/^	char recvline[MAXLINE];$/;"	m	struct:Arg_Recv	file:
+recvpkt	common/pkt.c	/^int recvpkt(sip_pkt_t* pkt, int conn)$/;"	f
+refuse	client.c	/^static bool login_status = false, send_status = false, refuse = false,$/;"	v	file:
+routeupdate_daemon	sip/sip.c	/^void* routeupdate_daemon(void* arg) {$/;"	f
+routeupdate_entry	common/pkt.h	/^typedef struct routeupdate_entry {$/;"	s
+routeupdate_entry_t	common/pkt.h	/^} routeupdate_entry_t;$/;"	t	typeref:struct:routeupdate_entry
+routingtable	sip/routingtable.h	/^typedef struct routingtable {$/;"	s
+routingtable	sip/sip.c	/^routingtable_t* routingtable;		\/\/路由表$/;"	v
+routingtable_create	sip/routingtable.c	/^routingtable_t* routingtable_create()$/;"	f
+routingtable_destroy	sip/routingtable.c	/^void routingtable_destroy(routingtable_t* routingtable)$/;"	f
+routingtable_entry	sip/routingtable.h	/^typedef struct routingtable_entry {$/;"	s
+routingtable_entry_t	sip/routingtable.h	/^} routingtable_entry_t;$/;"	t	typeref:struct:routingtable_entry
+routingtable_getnextnode	sip/routingtable.c	/^int routingtable_getnextnode(routingtable_t* routingtable, int destNodeID)$/;"	f
+routingtable_mutex	sip/sip.c	/^pthread_mutex_t* routingtable_mutex;	\/\/路由表互斥量$/;"	v
+routingtable_print	sip/routingtable.c	/^void routingtable_print(routingtable_t* routingtable)$/;"	f
+routingtable_setnextnode	sip/routingtable.c	/^void routingtable_setnextnode(routingtable_t* routingtable, int destNodeID, int nextNodeID)$/;"	f
+routingtable_t	sip/routingtable.h	/^} routingtable_t;$/;"	t	typeref:struct:routingtable
+runq	server.c	/^ListHead runq;$/;"	v
+sec	client.c	/^	int hour, min, sec;$/;"	m	struct:Message	file:
+seg	client/stcp_client.h	/^        seg_t seg;$/;"	m	struct:segBuf
+seg	common/seg.h	/^	seg_t seg;		\/\/一个段 $/;"	m	struct:sendsegargument
+seg	server/stcp_server.h	/^        seg_t seg;$/;"	m	struct:segBuf
+segBuf	client/stcp_client.h	/^typedef struct segBuf {$/;"	s
+segBuf	server/stcp_server.h	/^typedef struct segBuf {$/;"	s
+segBuf_t	client/stcp_client.h	/^} segBuf_t;$/;"	t	typeref:struct:segBuf
+segBuf_t	server/stcp_server.h	/^} segBuf_t;$/;"	t	typeref:struct:segBuf
+seg_t	common/seg.h	/^} seg_t;$/;"	t	typeref:struct:segment
+seghandler	client/stcp_client.c	/^void* seghandler(void* arg) $/;"	f
+seghandler	server/stcp_server.c	/^void* seghandler(void* arg)$/;"	f
+seglost	common/seg.c	/^int seglost(seg_t* segPtr)$/;"	f
+segment	common/seg.h	/^typedef struct segment {$/;"	s
+sendBufHead	client/stcp_client.h	/^	segBuf_t* sendBufHead;          \/\/���ͻ�����ͷ$/;"	m	struct:client_tcb
+sendBufHead	server/stcp_server.h	/^	segBuf_t* sendBufHead;		\/\/发送缓冲区头$/;"	m	struct:server_tcb
+sendBufTail	client/stcp_client.h	/^	segBuf_t* sendBufTail;          \/\/���ͻ�����β$/;"	m	struct:client_tcb
+sendBufTail	server/stcp_server.h	/^	segBuf_t* sendBufTail;		\/\/发送缓冲区尾$/;"	m	struct:server_tcb
+sendBuf_timer	client/stcp_client.c	/^void* sendBuf_timer(void* clienttcb) $/;"	f
+sendBuf_timer	server/stcp_server.c	/^void* sendBuf_timer(void* clienttcb)$/;"	f
+sendBufunSent	client/stcp_client.h	/^	segBuf_t* sendBufunSent;        \/\/���ͻ������еĵ�һ��δ���Ͷ�$/;"	m	struct:client_tcb
+sendBufunSent	server/stcp_server.h	/^	segBuf_t* sendBufunSent;         \/\/发送缓冲区第一个未发送段$/;"	m	struct:server_tcb
+send_Ack	server/stcp_server.c	/^bool send_Ack(seg_t *seg, int conn, int type, int sockfd)$/;"	f
+send_buf_len	client/stcp_client.c	/^void send_buf_len(int sockfd ,void* data ,int length){$/;"	f
+send_buf_len	server/stcp_server.c	/^void send_buf_len(int sockfd ,void* data ,int length)$/;"	f
+send_status	client.c	/^static bool login_status = false, send_status = false, refuse = false,$/;"	v	file:
+sender	client.c	/^	char sender[10];$/;"	m	struct:Message	file:
+sender	server.c	/^	char sender[8];\/\/发送者用户名$/;"	m	struct:data_packet	file:
+sendpkt	common/pkt.c	/^int sendpkt(sip_pkt_t* pkt, int conn)$/;"	f
+sendpkt_arg_t	common/pkt.h	/^} sendpkt_arg_t;$/;"	t	typeref:struct:sendpktargument
+sendpktargument	common/pkt.h	/^typedef struct sendpktargument {$/;"	s
+sendseg_arg_t	common/seg.h	/^} sendseg_arg_t;$/;"	t	typeref:struct:sendsegargument
+sendsegargument	common/seg.h	/^typedef struct sendsegargument {$/;"	s
+sentTime	client/stcp_client.h	/^        unsigned int sentTime;$/;"	m	struct:segBuf
+sentTime	server/stcp_server.h	/^        unsigned int sentTime;$/;"	m	struct:segBuf
+seq_num	common/seg.h	/^	unsigned int seq_num;         \/\/序号$/;"	m	struct:stcp_hdr
+server_nodeID	client/stcp_client.h	/^	unsigned int server_nodeID;        \/\/�������ڵ�ID, ����IP��ַ$/;"	m	struct:client_tcb
+server_nodeID	server/stcp_server.h	/^	unsigned int server_nodeID; $/;"	m	struct:server_tcb
+server_portNum	client/stcp_client.h	/^	unsigned int server_portNum;       \/\/�������˿ں�$/;"	m	struct:client_tcb
+server_portNum	server/stcp_server.h	/^	unsigned int server_portNum;$/;"	m	struct:server_tcb
+server_tcb	server/stcp_server.h	/^typedef struct server_tcb {$/;"	s
+server_tcb_t	server/stcp_server.h	/^} server_tcb_t;$/;"	t	typeref:struct:server_tcb
+sip_conn	client/stcp_client.c	/^int sip_conn;$/;"	v
+sip_conn	server/stcp_server.c	/^int sip_conn;$/;"	v
+sip_conn	son/son.c	/^int sip_conn; $/;"	v
+sip_hdr_t	common/pkt.h	/^} sip_hdr_t;$/;"	t	typeref:struct:sipheader
+sip_pkt_t	common/pkt.h	/^} sip_pkt_t;$/;"	t	typeref:struct:packet
+sip_recvseg	common/seg.c	/^int sip_recvseg(int sip_conn, int* src_nodeID, seg_t* segPtr)$/;"	f
+sip_sendseg	common/seg.c	/^int sip_sendseg(int sip_conn, int dest_nodeID, seg_t* segPtr)$/;"	f
+sip_stop	sip/sip.c	/^void sip_stop() {$/;"	f
+sipheader	common/pkt.h	/^typedef struct sipheader {$/;"	s
+sockfd	client.c	/^	int sockfd;$/;"	m	struct:Arg_Recv	file:
+son_conn	sip/sip.c	/^int son_conn; 			\/\/到重叠网络的连接$/;"	v
+son_recvpkt	common/pkt.c	/^int son_recvpkt(sip_pkt_t* pkt, int son_conn)$/;"	f
+son_sendpkt	common/pkt.c	/^int son_sendpkt(int nextNodeID, sip_pkt_t* pkt, int son_conn)$/;"	f
+son_stop	son/son.c	/^void son_stop() {$/;"	f
+src_nodeID	common/pkt.h	/^  int src_nodeID;		          \/\/Դ�ڵ�ID$/;"	m	struct:sipheader
+src_port	common/seg.h	/^	unsigned int src_port;        \/\/源端口号$/;"	m	struct:stcp_hdr
+start	server/stcp_server.c	/^clock_t start[MAX_TRANSPORT_CONNECTIONS];$/;"	v
+state	client/stcp_client.h	/^	unsigned int state;     	\/\/�ͻ���״̬$/;"	m	struct:client_tcb
+state	server/stcp_server.h	/^	unsigned int state;         $/;"	m	struct:server_tcb
+stcp_client_close	client/stcp_client.c	/^int stcp_client_close(int sockfd) $/;"	f
+stcp_client_connect	client/stcp_client.c	/^int stcp_client_connect(int sockfd, int nodeID, unsigned int server_port) $/;"	f
+stcp_client_disconnect	client/stcp_client.c	/^int stcp_client_disconnect(int sockfd) $/;"	f
+stcp_client_init	client/stcp_client.c	/^void stcp_client_init(int conn) $/;"	f
+stcp_client_recv	client/stcp_client.c	/^int stcp_client_recv(int sockfd, void* buf, unsigned int length) {$/;"	f
+stcp_client_send	client/stcp_client.c	/^int stcp_client_send(int sockfd, void* data, unsigned int length)$/;"	f
+stcp_client_sock	client/stcp_client.c	/^int stcp_client_sock(unsigned int client_port) $/;"	f
+stcp_conn	sip/sip.c	/^int stcp_conn;			\/\/到STCP的连接$/;"	v
+stcp_hdr	common/seg.h	/^typedef struct stcp_hdr {$/;"	s
+stcp_hdr_t	common/seg.h	/^} stcp_hdr_t;$/;"	t	typeref:struct:stcp_hdr
+stcp_server_accept	server/stcp_server.c	/^int stcp_server_accept(int sockfd)$/;"	f
+stcp_server_close	server/stcp_server.c	/^int stcp_server_close(int sockfd)$/;"	f
+stcp_server_init	server/stcp_server.c	/^void stcp_server_init(int conn)$/;"	f
+stcp_server_recv	server/stcp_server.c	/^int stcp_server_recv(int sockfd, void* buf, unsigned int length)$/;"	f
+stcp_server_send	server/stcp_server.c	/^int stcp_server_send(int sockfd, void* data, unsigned int length)$/;"	f
+stcp_server_sock	server/stcp_server.c	/^int stcp_server_sock(unsigned int server_port)$/;"	f
+tcbtable	client/stcp_client.c	/^client_tcb_t* tcbtable[MAX_TRANSPORT_CONNECTIONS];$/;"	v
+tcbtable	server/stcp_server.c	/^server_tcb_t* tcbtable[MAX_TRANSPORT_CONNECTIONS];$/;"	v
+thread	client.c	/^			thread = false;\/\/保证只生成一个进程$/;"	v	file:
+topology_getCost	topology/topology.c	/^unsigned int topology_getCost(int fromNodeID, int toNodeID)$/;"	f
+topology_getIP	topology/topology.c	/^void topology_getIP(int NodeID,char* ip){$/;"	f
+topology_getMyNodeID	topology/topology.c	/^int topology_getMyNodeID()$/;"	f
+topology_getNbrArray	topology/topology.c	/^int* topology_getNbrArray()$/;"	f
+topology_getNbrNum	topology/topology.c	/^int topology_getNbrNum()$/;"	f
+topology_getNodeArray	topology/topology.c	/^int* topology_getNodeArray()$/;"	f
+topology_getNodeIDfromip	topology/topology.c	/^int topology_getNodeIDfromip(struct in_addr* addr)                \/\/这个函数还没有好好测试$/;"	f
+topology_getNodeIDfromname	topology/topology.c	/^int topology_getNodeIDfromname(char* hostname) $/;"	f
+topology_getNodeNum	topology/topology.c	/^int topology_getNodeNum()$/;"	f
+type	common/pkt.h	/^  unsigned short int type;	      \/\/�������� $/;"	m	struct:sipheader
+type	common/seg.h	/^	unsigned short int  type;     \/\/段类型$/;"	m	struct:stcp_hdr
+unAck_segNum	client/stcp_client.h	/^	unsigned int unAck_segNum;      \/\/�ѷ��͵�δ�յ�ȷ�϶ε�����$/;"	m	struct:client_tcb
+unAck_segNum	server/stcp_server.h	/^	unsigned int unAck_segNum;      \/\/已发送但未收到确认段的数量$/;"	m	struct:server_tcb
+usedBufLen	client/stcp_client.h	/^	unsigned int usedBufLen;$/;"	m	struct:client_tcb
+usedBufLen	server/stcp_server.h	/^	unsigned int  usedBufLen;   $/;"	m	struct:server_tcb
+username	client.c	/^	char username[10];$/;"	m	struct:OnlineUser	file:
+username	client.c	/^	char username[8];\/\/用户名$/;"	m	struct:data_packet	file:
+username	server.c	/^	char username[8];$/;"	m	struct:User	file:
+version	client.c	/^	char version;\/\/01登录，02确认登录，03登录拒绝，04发给指定人，05发给所有人, 06退出IM, 07通知有人加入，08通知有人退出$/;"	m	struct:data_packet	file:
+version	server.c	/^	char version;\/\/01登录，02发给特定人, 03发给所有人$/;"	m	struct:data_packet	file:
+waitNbrs	son/son.c	/^void* waitNbrs(void* arg) {$/;"	f
+waitSIP	son/son.c	/^void waitSIP(){$/;"	f
+waitSTCP	sip/sip.c	/^void waitSTCP() {$/;"	f
+x	client.c	/^	int x;$/;"	m	struct:OnlineUser	file:
